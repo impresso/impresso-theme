@@ -1,1 +1,7 @@
 $enable-rounded:            false !default;
+
+// Fonts
+$font-family-serif: aglet-slab, questa, serif;
+$font-family-sans-serif: questa-sans, sans-serif;
+$headings-font-family: $font-family-serif;
+$font-family-base: $font-family-sans-serif;
