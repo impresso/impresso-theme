@@ -10,8 +10,8 @@
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "test": "npm run unit",
     "lint": "eslint --ext .js,.vue src test/unit",
-    "build": "node build/build.js",
-    "css": "node-sass --include-path node_modules -o dist/css src/scss"
+    "build": "node build/build.js && npm run css",
+    "css": "node-sass --include-path node_modules -o dist/css src/scss/bootpresso.scss"
   },
   "dependencies": {
     "vue": "^2.5.2",
