@@ -3,7 +3,8 @@
     <h2 class="small-caps">Components</h2>
     <b-card title="Dropdown">
     <hr>
-    <p>Dropdowns work with trigger buttons of all sizes, including default and split dropdown buttons</p>
+    <p>Dropdowns work with trigger buttons of all sizes,
+      including default and split dropdown buttons</p>
     <b-dropdown id="ddown0" text="outline-primary" size="sm" variant="outline-primary">
       <b-dropdown-item>First Action</b-dropdown-item>
       <b-dropdown-item>Second Action</b-dropdown-item>
@@ -20,7 +21,9 @@
       <b-dropdown-item-button>First item</b-dropdown-item-button>
       <b-dropdown-item-button>Second Item</b-dropdown-item-button>
     </b-dropdown>
-    <b-dropdown id="ddown-sm-split" size="sm" split text="outline-secondary Split" variant="outline-secondary" class="">
+    <b-dropdown id="ddown-sm-split"
+      size="sm" split text="outline-secondary Split"
+      variant="outline-secondary" class="">
       <b-dropdown-item-button>Action</b-dropdown-item-button>
       <b-dropdown-item-button>Another action</b-dropdown-item-button>
       <b-dropdown-item-button>Something else here...</b-dropdown-item-button>
@@ -67,7 +70,7 @@
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style lang="css">
