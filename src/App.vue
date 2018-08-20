@@ -6,6 +6,8 @@
 </template>
 
 <script>
+import WebFontLoader from 'webfontloader';
+
 export default {
   name: 'App',
   created() {
