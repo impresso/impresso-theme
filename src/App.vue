@@ -1,8 +1,8 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
-  </div>
+<div id="app">
+  <h1>Impresso interface elements</h1>
+  <router-view/>
+</div>
 </template>
 
 <script>
