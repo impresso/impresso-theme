@@ -8,6 +8,13 @@
 <script>
 export default {
   name: 'App',
+  created() {
+    WebFontLoader.load({
+      typekit: {
+        id: process.env.TYPEKIT_ID,
+      },
+    });
+  },
 };
 </script>
 
