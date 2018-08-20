@@ -13,7 +13,7 @@ export default {
   created() {
     WebFontLoader.load({
       typekit: {
-        id: 'egx1cmg',
+        id: process.env.TYPEKIT_ID,
       },
     });
   },
