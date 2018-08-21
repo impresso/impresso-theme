@@ -1,7 +1,9 @@
 // customizing
-@import "variables.scss";
+@import "variables.sass";
+@import "typography.sass";
+@import "vendor/dripicons";
 
-// fallback
+// bootstrap
 @import "bootstrap/scss/_functions.scss";
 @import "bootstrap/scss/_variables.scss";
 @import "bootstrap/scss/_mixins.scss";
@@ -37,3 +39,7 @@
 @import "bootstrap/scss/_carousel.scss";
 @import "bootstrap/scss/_utilities.scss";
 @import "bootstrap/scss/_print.scss";
+
+// custom components
+@import "components/button.sass";
+@import "components/dropdown.sass";

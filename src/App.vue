@@ -1,11 +1,13 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
-  </div>
+<div id="app">
+  <h1>Impresso interface elements</h1>
+  <router-view/>
+</div>
 </template>
 
 <script>
+import WebFontLoader from 'webfontloader';
+
 export default {
   name: 'App',
   created() {
@@ -20,11 +22,6 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  margin: 1em;
 }
 </style>
