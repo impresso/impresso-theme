@@ -2,12 +2,12 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue';
 import BootstrapVue from 'bootstrap-vue';
+import '@/scss/bootpresso.scss';
+import 'bootstrap-vue/dist/bootstrap-vue.css';
+import 'dripicons/webfont/webfont.css';
 
 import App from './App';
 import router from './router';
-
-import '@/scss/bootpresso.scss';
-import 'bootstrap-vue/dist/bootstrap-vue.css';
 
 require('jquery');
 require('bootstrap/dist/js/bootstrap.js');

@@ -1,0 +1,42 @@
+.btn.dropdown-toggle[aria-expanded=true]
+  border-bottom-color: $clr-bg-primary
+  box-shadow: none !important
+  background-color: $clr-bg-primary
+  color: inherit
+  z-index: $zindex-dropdown + 1
+
+.btn.dropdown-toggle:not(.disabled):hover,
+.btn.dropdown-toggle:not(.disabled):focus
+  background-color: $clr-bg-primary
+  color: currentColor
+
+.dropdown-menu
+  border-color: $clr-primary
+  background-color: $clr-bg-primary
+  box-shadow: 0.3em 0.3em 0 fade-out($clr-primary, 0.8)
+  margin-top: -1px
+  min-width: 100%
+
+.dropdown-divider
+  border-color: $clr-tertiary
+
+h6.dropdown-header
+  @extend %text-small-caps
+  margin-right: 1em
+
+.dropdown-toggle::after
+  font-family: dripicons-v2
+  content: 'T'
+  margin-left: 0.4em
+  margin-right: 0.7em
+  border: none
+  vertical-align: top
+  margin-top: -0.1em
+  transition: 0.2s
+
+.dropdown-toggle-split:after
+  margin-left: 0
+
+.dropdown-toggle[aria-expanded=true]::after,
+.dropdown-toggle:hover::after
+  margin-top: 0.2em

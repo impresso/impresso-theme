@@ -1,0 +1,120 @@
+%text-small-caps
+  @extend .sans
+  font-variant: all-small-caps
+  font-weight: 400
+  font-size: 14px
+  line-height: 1.2
+
+*:focus
+  outline: none !important
+
+*::selection
+  background: $clr-accent-secondary
+
+body
+  font-size: 0.8rem
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+label,
+legend
+  @extend %text-small-caps
+
+a,
+u
+  text-decoration-color: $clr-quaternary
+  text-decoration-style: solid
+  transition: all 0.3s
+  cursor: pointer
+
+a:hover,
+u:hover
+  text-decoration-color: $clr-tertiary
+
+code
+  color: darken($clr-accent-secondary, 30) !important
+  background-color: $clr-bg-secondary
+  padding: 0.2em 0.4em
+  border: 1px solid darken($clr-bg-secondary, 10)
+
+.small-caps
+  @extend %text-small-caps
+
+.serif
+  font-family: $font-family-serif
+
+.sans
+  font-family: $font-family-sans-serif
+
+.highlight
+  background: fade_out($clr-accent, 0.3)
+  outline: 1px solid $clr-accent
+  padding: 0 0.2em
+
+.txt-clr-primary
+  color: $clr-primary
+
+.txt-clr-secondary
+  color: $clr-secondary
+
+.txt-clr-tertiary
+  color: $clr-tertiary
+
+.txt-clr-quaternary
+  color: $clr-quaternary
+
+.txt-clr-primary
+  color: $clr-bg-primary
+
+.txt-clr-secondary
+  color: $clr-bg-secondary
+
+.txt-clr-accent
+  color: $clr-accent
+
+.txt-clr-accent-secondary
+  color: $clr-accent-secondary
+
+.bg-clr-primary
+  background-color: $clr-primary
+
+.bg-clr-secondary
+  background-color: $clr-secondary
+
+.bg-clr-tertiary
+  background-color: $clr-tertiary
+
+.bg-clr-quaternary
+  background-color: $clr-quaternary
+
+.bg-clr-primary
+  background-color: $clr-bg-primary
+
+.bg-clr-secondary
+  background-color: $clr-bg-secondary
+
+.bg-clr-accent
+  background-color: $clr-accent
+
+.bg-clr-accent-secondary
+  background-color: $clr-accent-secondary
+
+.heading-top
+  @extend %text-small-caps
+  font-weight: normal
+  color: $clr-tertiary
+  margin-bottom: 0.5em
+
+.heading-wrapper
+  position: relative
+  border-bottom: 1px solid $clr-primary
+  padding-top: 0em
+  margin-bottom: 1em
+
+.float-right
+  margin-top: -2.5em
+
+.heading-top
+  border-bottom: 1px solid $clr-tertiary
+  padding-bottom: 0.5em
+  margin-bottom: 1px
