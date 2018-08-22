@@ -7,7 +7,6 @@
 
 <script>
 import WebFontLoader from 'webfontloader';
-import 'dripicons/webfont/webfont.css';
 
 export default {
   name: 'App',

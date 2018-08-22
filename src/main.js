@@ -9,7 +9,6 @@ import 'dripicons/webfont/webfont.css';
 import App from './App';
 import router from './router';
 
-
 require('jquery');
 require('bootstrap/dist/js/bootstrap.js');
 
