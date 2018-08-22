@@ -4,6 +4,7 @@ import Vue from 'vue';
 import BootstrapVue from 'bootstrap-vue';
 import '@/scss/bootpresso.scss';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
+import 'dripicons/webfont/webfont.css';
 
 import App from './App';
 import router from './router';
