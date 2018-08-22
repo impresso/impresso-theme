@@ -1,5 +1,5 @@
 <template>
-<div id="app">
+<div id="app" class="m-3">
   <h1>Impresso interface elements</h1>
   <router-view/>
 </div>
@@ -21,7 +21,4 @@ export default {
 </script>
 
 <style>
-#app {
-  margin: 1em;
-}
 </style>
