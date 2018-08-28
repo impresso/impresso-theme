@@ -1,5 +1,5 @@
 label,
-legend, .small-caps, .heading-top, .btn-sm, .btn-group-sm > .btn, h6.dropdown-header {
+legend, .small-caps, .label, .heading-top, .btn-sm, .btn-group-sm > .btn, h6.dropdown-header {
   font-variant: all-small-caps;
   font-weight: 400;
   font-size: 14px;
@@ -33,11 +33,20 @@ code {
   padding: 0.2em 0.4em;
   border: 1px solid #d9d9d9; }
 
+.text-serif,
 .serif {
   font-family: "questa", serif; }
 
-.sans, label,
-legend, .small-caps, .heading-top, .btn-sm, .btn-group-sm > .btn, h6.dropdown-header {
+.text-sans,
+.sans,
+label,
+legend,
+.small-caps,
+.label,
+.heading-top,
+.btn-sm,
+.btn-group-sm > .btn,
+h6.dropdown-header {
   font-family: "questa-sans", sans-serif; }
 
 .highlight {
