@@ -1,6 +1,5 @@
 // customizing
 @import "variables.sass";
-@import "typography.sass";
 
 // bootstrap
 @import "bootstrap/scss/_functions.scss";
@@ -40,5 +39,6 @@
 @import "bootstrap/scss/_print.scss";
 
 // impresso bootstrap
+@import "typography.sass";
 @import "components/button.sass";
 @import "components/dropdown.sass";

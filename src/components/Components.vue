@@ -65,7 +65,11 @@
     <hr>
     <br><br>
 
-      <p>Icon test : <span class="dripicons-alarm"></span></p>
+    <p>Icon test : <span class="dripicons-alarm"></span></p>
+    <section class="search-results-summary">
+      <span class="label">Search Summary</span>
+      <p class="serif">Found <strong>153</strong> pages <a href="fsdf">matching exactly “Indoeuropean”</a> next to “people” published in La Gazette de Lausanne between 19 May 1810 and 01 Jan 1835 or between 20 March 1861 and 30 March March 1861 </p>
+    </section>
   </div>
 </template>
 

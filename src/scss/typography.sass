@@ -12,7 +12,6 @@
   background: $clr-accent-secondary
 
 body
-  font-size: 0.8rem
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
 
@@ -22,8 +21,8 @@ legend
 
 a,
 u
-  text-decoration-color: $clr-quaternary
-  text-decoration-style: solid
+  text-decoration-color: $clr-quaternary !important
+  text-decoration: underline
   transition: all 0.3s
   cursor: pointer
 
@@ -40,9 +39,16 @@ code
 .small-caps
   @extend %text-small-caps
 
+.label
+  @extend %text-small-caps
+  font-weight: bold
+  color: $clr-tertiary
+
+.text-serif,
 .serif
   font-family: $font-family-serif
 
+.text-sans,
 .sans
   font-family: $font-family-sans-serif
 
