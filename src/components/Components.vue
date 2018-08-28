@@ -65,7 +65,9 @@
     <hr>
     <br><br>
 
-      <p>Icon test : <span class="dripicons-alarm"></span></p>
+    <p class="label">summary</p>
+    <p>Icon test : <span class="dripicons-alarm"></span></p>
+    <p class="text-serif">Found <b>53883</b> articles</p>
   </div>
 </template>
 
