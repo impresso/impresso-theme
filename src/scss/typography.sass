@@ -19,20 +19,17 @@ label,
 legend
   @extend %text-small-caps
 
-a,
-u
-  text-decoration-color: $clr-quaternary !important
-  text-decoration: underline
+a
   transition: all 0.3s
   cursor: pointer
 
-a:hover,
-u:hover
-  text-decoration-color: $clr-tertiary
+a:hover
+  background: $link-hover-bg
+
+a:active
+  background: $link-active-bg
 
 code
-  color: darken($clr-accent-secondary, 30) !important
-  background-color: $clr-bg-secondary
   padding: 0.2em 0.4em
   border: 1px solid darken($clr-bg-secondary, 10)
 
@@ -43,6 +40,14 @@ code
   @extend %text-small-caps
   font-weight: bold
   color: $clr-tertiary
+
+.search-results-summary
+  font-size: 1.2em
+  a
+    text-decoration: underline
+    text-decoration-color: $clr-quaternary
+  a:hover
+    text-decoration-color: transparent
 
 .text-serif,
 .serif
