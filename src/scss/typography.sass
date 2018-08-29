@@ -29,6 +29,14 @@ a:hover
 a:active
   background: $link-active-bg
 
+p > a
+    text-decoration: underline
+    text-decoration-color: $clr-quaternary
+    padding-left: 1px
+    padding-right: 1px
+P > a:hover
+    text-decoration-color: transparent
+
 code
   padding: 0.2em 0.4em
   border: 1px solid darken($clr-bg-secondary, 10)
@@ -43,11 +51,6 @@ code
 
 .search-results-summary
   font-size: 1.2em
-  a
-    text-decoration: underline
-    text-decoration-color: $clr-quaternary
-  a:hover
-    text-decoration-color: transparent
 
 .text-serif,
 .serif
