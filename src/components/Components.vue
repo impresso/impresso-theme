@@ -112,8 +112,8 @@
 
     <hr>
 
-    <b-card title="Section <code>.search-results-summary</code>">
-      <section class="search-results-summary">
+    <b-card title="Section <code>.textbox-fancy</code>">
+      <section class="textbox-fancy">
         <span class="label">Search Summary <code>.label</code></span>
         <p class="serif">Found <strong>153</strong> pages <a href="fsdf">matching exactly “Indoeuropean”</a> next to “people” published in La Gazette de Lausanne between 19 May 1810 and 01 Jan 1835 or between 20 March 1861 and 30 March March 1861 </p>
       </section>
