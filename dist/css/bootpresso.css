@@ -3816,7 +3816,7 @@ button.close {
   .bs-popover-top .arrow::before, .bs-popover-auto[x-placement^="top"] .arrow::before {
     bottom: 0;
     border-top-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-top .arrow::after,
   .bs-popover-auto[x-placement^="top"] .arrow::after {
     bottom: 1px;
@@ -3836,7 +3836,7 @@ button.close {
   .bs-popover-right .arrow::before, .bs-popover-auto[x-placement^="right"] .arrow::before {
     left: 0;
     border-right-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-right .arrow::after,
   .bs-popover-auto[x-placement^="right"] .arrow::after {
     left: 1px;
@@ -3853,7 +3853,7 @@ button.close {
   .bs-popover-bottom .arrow::before, .bs-popover-auto[x-placement^="bottom"] .arrow::before {
     top: 0;
     border-bottom-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-bottom .arrow::after,
   .bs-popover-auto[x-placement^="bottom"] .arrow::after {
     top: 1px;
@@ -3882,7 +3882,7 @@ button.close {
   .bs-popover-left .arrow::before, .bs-popover-auto[x-placement^="left"] .arrow::before {
     right: 0;
     border-left-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-left .arrow::after,
   .bs-popover-auto[x-placement^="left"] .arrow::after {
     right: 1px;
@@ -6198,52 +6198,28 @@ h6.dropdown-header {
   outline: 1px solid #F4D062;
   padding: 0 0.2em; }
 
-.txt-clr-primary {
-  color: #111; }
-
-.txt-clr-secondary {
-  color: #515151; }
-
-.txt-clr-tertiary {
+.text-tertiary {
   color: #aaaaaa; }
 
-.txt-clr-quaternary {
+.text-quaternary {
   color: #dddddd; }
 
-.txt-clr-primary {
-  color: #fff; }
-
-.txt-clr-secondary {
-  color: #f2f2f2; }
-
-.txt-clr-accent {
+.text-accent {
   color: #F4D062; }
 
-.txt-clr-accent-secondary {
+.text-accent-secondary {
   color: #56CCF2; }
 
-.bg-clr-primary {
-  background-color: #111; }
-
-.bg-clr-secondary {
-  background-color: #515151; }
-
-.bg-clr-tertiary {
+.bg-tertiary {
   background-color: #aaaaaa; }
 
-.bg-clr-quaternary {
+.bg-quaternary {
   background-color: #dddddd; }
 
-.bg-clr-primary {
-  background-color: #fff; }
-
-.bg-clr-secondary {
-  background-color: #f2f2f2; }
-
-.bg-clr-accent {
+.bg-accent {
   background-color: #F4D062; }
 
-.bg-clr-accent-secondary {
+.bg-accent-secondary {
   background-color: #56CCF2; }
 
 .heading-top {
