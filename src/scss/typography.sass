@@ -12,7 +12,6 @@
   background: $clr-accent-secondary
 
 body
-  font-size: 0.8rem
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
 
@@ -20,28 +19,37 @@ label,
 legend
   @extend %text-small-caps
 
-a,
-u
-  text-decoration-color: $clr-quaternary
-  text-decoration-style: solid
+a
   transition: all 0.3s
   cursor: pointer
 
-a:hover,
-u:hover
-  text-decoration-color: $clr-tertiary
+a:hover
+  background: $link-hover-bg
+
+a:active
+  background: $link-active-bg
+
+p > a
+    text-decoration: underline
+    text-decoration-color: $clr-quaternary
+    padding-left: 1px
+    padding-right: 1px
+P > a:hover
+    text-decoration-color: transparent
 
 code
-  color: darken($clr-accent-secondary, 30) !important
-  background-color: $clr-bg-secondary
   padding: 0.2em 0.4em
   border: 1px solid darken($clr-bg-secondary, 10)
 
 .small-caps
   @extend %text-small-caps
 
-.label
-  @extend %text-small-caps
+.textbox-fancy
+  font-size: 1.2em
+  .label
+    @extend %text-small-caps
+    font-weight: bold
+    color: $clr-tertiary
 
 .text-serif,
 .serif
@@ -56,52 +64,28 @@ code
   outline: 1px solid $clr-accent
   padding: 0 0.2em
 
-.txt-clr-primary
-  color: $clr-primary
-
-.txt-clr-secondary
-  color: $clr-secondary
-
-.txt-clr-tertiary
+.text-tertiary
   color: $clr-tertiary
 
-.txt-clr-quaternary
+.text-quaternary
   color: $clr-quaternary
 
-.txt-clr-primary
-  color: $clr-bg-primary
-
-.txt-clr-secondary
-  color: $clr-bg-secondary
-
-.txt-clr-accent
+.text-accent
   color: $clr-accent
 
-.txt-clr-accent-secondary
+.text-accent-secondary
   color: $clr-accent-secondary
 
-.bg-clr-primary
-  background-color: $clr-primary
-
-.bg-clr-secondary
-  background-color: $clr-secondary
-
-.bg-clr-tertiary
+.bg-tertiary
   background-color: $clr-tertiary
 
-.bg-clr-quaternary
+.bg-quaternary
   background-color: $clr-quaternary
 
-.bg-clr-primary
-  background-color: $clr-bg-primary
-
-.bg-clr-secondary
-  background-color: $clr-bg-secondary
-
-.bg-clr-accent
+.bg-accent
   background-color: $clr-accent
 
-.bg-clr-accent-secondary
+.bg-accent-secondary
   background-color: $clr-accent-secondary
 
 .heading-top
@@ -123,3 +107,6 @@ code
   border-bottom: 1px solid $clr-tertiary
   padding-bottom: 0.5em
   margin-bottom: 1px
+
+.drop-shadow
+  box-shadow: 0.3em 0.3em 0 fade-out($clr-primary, 0.8)
