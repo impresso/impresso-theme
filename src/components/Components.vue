@@ -68,33 +68,46 @@
       <!-- Nav tabs -->
       <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item">
-          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+          <a class="nav-link active" id="home-tab" data-toggle="tab"
+            href="#home" role="tab"
+            aria-controls="home" aria-selected="true">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+          <a class="nav-link" id="profile-tab" data-toggle="tab"
+            href="#profile" role="tab"
+            aria-controls="profile" aria-selected="false">Profile</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages" aria-selected="false">Messages</a>
+          <a class="nav-link" id="messages-tab" data-toggle="tab"
+            href="#messages" role="tab"
+            aria-controls="messages" aria-selected="false">Messages</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" id="settings-tab" data-toggle="tab" href="#settings" role="tab" aria-controls="settings" aria-selected="false">Settings</a>
+          <a class="nav-link disabled" id="settings-tab" data-toggle="tab"
+            href="#settings" role="tab"
+            aria-controls="settings" aria-selected="false">Settings</a>
         </li>
       </ul>
       <!-- Tab panes -->
       <div class="tab-content py-3">
-        <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">home</div>
-        <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">Profile</div>
-        <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">Messages</div>
+        <div class="tab-pane active" id="home" role="tabpanel"
+          aria-labelledby="home-tab">home</div>
+        <div class="tab-pane" id="profile" role="tabpanel"
+          aria-labelledby="profile-tab">Profile</div>
+        <div class="tab-pane" id="messages" role="tabpanel"
+          aria-labelledby="messages-tab">Messages</div>
       </div>
 
       <hr>
 
       <ul class="nav nav-tabs pl-3" role="tablist">
         <li class="nav-item">
-          <a class="nav-link small-caps active" data-toggle="tab" href="#tab-1">Active<br>Tab</a>
+          <a class="nav-link small-caps active" data-toggle="tab"
+            href="#tab-1">Active<br>Tab</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link small-caps" data-toggle="tab" href="#tab-2">Link<br><code>.small-caps</code></a>
+          <a class="nav-link small-caps" data-toggle="tab"
+            href="#tab-2">Link<br><code>.small-caps</code></a>
         </li>
       </ul>
     </b-card>
@@ -115,7 +128,10 @@
     <b-card title="Section <code>.textbox-fancy</code>">
       <section class="textbox-fancy">
         <span class="label">Search Summary <code>.label</code></span>
-        <p class="serif">Found <strong>153</strong> pages <a href="fsdf">matching exactly “Indoeuropean”</a> next to “people” published in La Gazette de Lausanne between 19 May 1810 and 01 Jan 1835 or between 20 March 1861 and 30 March March 1861 </p>
+        <p class="serif">Found <strong>153</strong> pages <a href="fsdf">matching
+          exactly “Indoeuropean”</a> next to “people” published in La Gazette de
+          Lausanne between 19 May 1810 and 01 Jan 1835 or between 20 March 1861 and
+          30 March March 1861 </p>
       </section>
     </b-card>
 
