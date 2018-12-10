@@ -6246,11 +6246,9 @@ h6.dropdown-header {
   padding: 0.15em 0.6em 0.2em 0.6em; }
 
 .btn.dropdown-toggle[aria-expanded=true] {
-  border-bottom-color: #fff;
   box-shadow: none !important;
   background-color: #fff;
-  color: inherit;
-  z-index: 1001; }
+  color: inherit; }
 
 .btn.dropdown-toggle:not(.disabled):hover,
 .btn.dropdown-toggle:not(.disabled):focus {
@@ -6262,6 +6260,9 @@ h6.dropdown-header {
   background-color: #fff;
   margin-top: -1px;
   min-width: 100%; }
+
+.dropdown-menu[x-placement^="top"] {
+  margin-top: 0px; }
 
 .dropdown-divider {
   border-color: #aaaaaa; }
