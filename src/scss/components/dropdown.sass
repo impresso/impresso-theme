@@ -1,9 +1,7 @@
 .btn.dropdown-toggle[aria-expanded=true]
-  border-bottom-color: $clr-bg-primary
   box-shadow: none !important
   background-color: $clr-bg-primary
   color: inherit
-  z-index: $zindex-dropdown + 1
 
 .btn.dropdown-toggle:not(.disabled):hover,
 .btn.dropdown-toggle:not(.disabled):focus
@@ -16,6 +14,9 @@
   @extend .drop-shadow
   margin-top: -1px
   min-width: 100%
+
+.dropdown-menu[x-placement^="top"]
+  margin-top: 0px
 
 .dropdown-divider
   border-color: $clr-tertiary
