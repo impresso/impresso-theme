@@ -3,7 +3,6 @@
   font-variant: all-small-caps
   font-weight: 400
   font-size: 14px
-  line-height: 1.2
 
 *:focus
   outline: none !important
@@ -108,3 +107,10 @@ code
 
 .drop-shadow
   box-shadow: 0.3em 0.3em 0 fade-out($clr-primary, 0.8)
+
+.custom-control-label::before
+  border: 1px solid white
+  outline: 1px solid $clr-tertiary
+
+.badge > a.dripicons
+  vertical-align: middle

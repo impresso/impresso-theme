@@ -1,6 +1,30 @@
 <template lang="html">
   <div id="app-content">
     <h2 class="small-caps">Components</h2>
+    <b-card title="Inputs">
+      <p>Badges with close button</p>
+      <b-badge>Badge with close button <a class="dripicons dripicons-cross"></a></b-badge>
+      <hr>
+      <p>Checkboxes</p>
+      <b-form-group label="Inline checkboxes (default)">
+        <b-form-checkbox-group name="flavour1" :options="[
+        {text: 'Orange', value: 'orange'},
+        {text: 'Apple', value: 'apple'},
+        {text: 'Pineapple', value: 'pineapple'},
+      ]">
+        </b-form-checkbox-group>
+      </b-form-group>
+
+      <b-form-group label="Stacked  checkboxes">
+        <b-form-checkbox-group stacked name="flavour2" :options="[
+        {text: 'Orange', value: 'orange'},
+        {text: 'Apple', value: 'apple'},
+        {text: 'Pineapple', value: 'pineapple'},
+      ]">
+        </b-form-checkbox-group>
+      </b-form-group>
+    </b-card>
+    <hr>
     <b-card title="Dropdown">
       <p>Dropdowns work with trigger buttons of all sizes,
         including default and split dropdown buttons</p>
