@@ -6135,8 +6135,7 @@ label,
 legend, .small-caps, .textbox-fancy .label, .heading-top, .btn-sm, .btn-group-sm > .btn, h6.dropdown-header {
   font-variant: all-small-caps;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.2; }
+  font-size: 14px; }
 
 *:focus {
   outline: none !important; }
@@ -6241,6 +6240,13 @@ h6.dropdown-header {
 
 .drop-shadow, .dropdown-menu {
   box-shadow: 0.3em 0.3em 0 rgba(17, 17, 17, 0.2); }
+
+.custom-control-label::before {
+  border: 1px solid white;
+  outline: 1px solid #aaaaaa; }
+
+.badge > a.dripicons {
+  vertical-align: middle; }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 0.15em 0.6em 0.2em 0.6em; }
