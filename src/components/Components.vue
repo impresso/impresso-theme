@@ -44,6 +44,15 @@
         <b-dropdown-item-button>First item</b-dropdown-item-button>
         <b-dropdown-item-button>Second Item</b-dropdown-item-button>
       </b-dropdown>
+      <b-dropdown id="ddown-dark-modeheader" text="dark mode"
+        class="dropdown-dark" size="sm" variant="dark">
+        <b-dropdown-header>Dropdown header</b-dropdown-header>
+        <b-dropdown-item-button>First item</b-dropdown-item-button>
+        <b-dropdown-item-button>Second Item</b-dropdown-item-button>
+        <b-dropdown-header>Another header</b-dropdown-header>
+        <b-dropdown-item-button>First item</b-dropdown-item-button>
+        <b-dropdown-item-button>Second Item</b-dropdown-item-button>
+      </b-dropdown>
       <b-dropdown id="ddown-sm-split"
         size="sm" split text="outline-secondary Split"
         variant="outline-secondary" class="">
