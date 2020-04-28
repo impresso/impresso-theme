@@ -8,6 +8,9 @@
 # install dependencies
 npm install
 
+# update all packages
+npm update:packages
+
 # serve with hot reload at localhost:8080
 npm run dev
 
